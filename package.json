@@ -4,11 +4,12 @@
   "description": "Collection of usefull website.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.code.tencent.com:damo/kaifage.git"
+    "url": "git@github.com:damonpeng/kaifage.com.git"
   },
   "author": "damonpeng",
   "license": "ISC"

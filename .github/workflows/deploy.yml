@@ -35,8 +35,8 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
 
           # 先用 SSH 命令删除旧文件
-          script: |
-            rm -rf /data/services/kaifage.com/index.html
+          # script: |
+          #   rm -rf /data/services/kaifage.com/index.html
 
       - name: 部署到服务器
         uses: wlixcc/SFTP-Deploy-Action@master # 这个是sftp插件
@@ -45,5 +45,6 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           username: ${{ secrets.SSH_USER }}
           ssh_private_key: ${{ secrets.DEPLOY_KEY }}
+          sftp_only: true
           local_path: './dist/*'
-          remote_path: '/data/services/kaifage.com'
+          remote_path: '/data/services/kaifage.com-github'

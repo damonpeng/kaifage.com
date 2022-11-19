@@ -1,0 +1,23 @@
+[
+	[
+		"前端",
+		[
+			"动画库",
+			[
+				["https://animejs.com/", "", "轻量的JS动画库，可对CSS属性、SVG、DOM和JS对象进行动画。", "https://animejs.com/documentation/assets/img/apple-touch-icon.png"]
+			]
+		],
+		[
+			"图表库",
+			[
+				["https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png"]
+			]
+		],
+		[
+			"图片预览",
+			[
+				["https://photoswipe.com/", "PhotoSwipe", "JS图片画廊，基于lightbox", "https://photoswipe.com/img/favicon-16x16.png"]
+			]
+		]
+	]
+]

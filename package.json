@@ -1,0 +1,15 @@
+{
+  "name": "kaifage.com",
+  "version": "1.0.0",
+  "description": "Collection of usefull website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.code.tencent.com:damo/kaifage.git"
+  },
+  "author": "damonpeng",
+  "license": "ISC"
+}

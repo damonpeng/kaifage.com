@@ -46,6 +46,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           ssh_private_key: ${{ secrets.DEPLOY_KEY }}
           sftp_only: true
-          delete_remote_files: true
+          # delete_remote_files: true  # 谨慎开启
           local_path: './dist/*'
           remote_path: '/data/github_actions/kaifage.com/'

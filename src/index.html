@@ -76,15 +76,16 @@ a {text-decoration: none;color:var(--link-color)}
 li {list-style: none}
 footer {text-align:center;padding:50px 0 30px}
 .container {margin:5px}
-.container-header {display:flex;align-items:flex-start}
-.logo {flex:4;font-size:1.6rem;margin-bottom:20px}
+.container-header {display:flex;align-items:flex-start;flex-wrap:wrap}
+.logo {font-size:1.6rem}
 .logo .prefix {font-size:2.4rem}
 .logo small{color:var(--logo-color);font-weight:400}
-.navigation {flex:6;display:block;font-size:1.5rem;margin-top:10px}
-.navigation a {margin-right:20px;padding-bottom:2px;border-bottom:3px double var(--link-color)}
+.navigation {display:flex;width:100%;font-size:1.5rem;margin-top:10px;justify-content: space-between}
+.navigation a {padding-bottom:2px;border-bottom:3px double var(--link-color)}
 .navigation a.current {border-bottom:3px solid var(--link-color)}
 .navigation a:hover {border-bottom:3px dashed var(--link-color)}
 .theme {position:absolute;top:10px;right:20px;font-size:2.4rem;cursor:pointer;transition:transform .5s ease-in-out}
+.container-body{margin-top:20px}
 .series {margin-bottom:10px}
 .series-title {font-size:1.6rem;padding-bottom:3px;color:var(--series-color);border-bottom:1px solid var(--series-border-color)}
 .groups {display:flex;flex-wrap:wrap;align-content:flex-start;justify-content:flex-start;margin-top:5px}
@@ -101,25 +102,33 @@ footer {text-align:center;padding:50px 0 30px}
 .bee-flying { display:inline-block;-webkit-animation:flying 2s ease-in-out infinite;animation:flying 2s ease-in-out infinite}
 @keyframes flying {
     0% {-webkit-transform:translateY(5%) rotate(7deg) translateX(5%);transform:translateY(5%) rotate(7deg) translateX(5%)}
-    25% {-webkit-transform:translateY(0) rotate(10deg) translateX(2.5%);transform:translateY(0) rotate(10deg) translateX(2.5%)}
+    25% {-webkit-transform:translateY(0) rotate(10deg) translateX(2.5%);transform:translateY(0) rotate(10deg) translateX(5%)}
     50% {-webkit-transform:translateY(5%) rotate(4deg) translateX(0);transform:translateY(5%) rotate(4deg) translateX(0)}
-    75% {-webkit-transform:translateY(0) rotate(10deg) translateX(-2.5%);transform:translateY(0) rotate(10deg) translateX(-2.5%)}
+    75% {-webkit-transform:translateY(0) rotate(10deg) translateX(-2.5%);transform:translateY(0) rotate(10deg) translateX(-5%)}
     to {-webkit-transform:translateY(5%) rotate(7deg) translateX(5%);transform:translateY(5%) rotate(7deg) translateX(5%)}
+}
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  {
+    .navigation {width:100%;padding:0 10px}
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  {
+    .navigation {width:360px;margin-left:100px}
 }
 </style>
 </head>
-<body class="container" id="container">
+<body class="container">
     <header class="container-header">
         <h1 class="logo"><span class="prefix bee-flying">🐝</span> 开发哥 <small>技术分享</small></h1>
         <nav class="navigation">
-            <a href="/" class="current">🐻 工具箱</a>
-            <a href="/libs.html">🐼 代码库</a>
-            <a href="/snippets.html">🐻‍❄️ 代码片段</a>
-            <a href="/index.php">🐨 开发哥笔记</a>
+            <a href="/" class="current">🐻工具箱</a>
+            <a href="/libs.html">🐼代码库</a>
+            <a href="/snippets.html">🐻‍❄️代码片段</a>
+            <a href="/index.php">🐨开发笔记</a>
         </nav>
         <div class="theme" id="changeTheme" title="换肤">🦄</div>
     </header>
-    <section id="content">
+    <section class="container-body">
         {{%PLH_URLS_CONTENT%}}
     </section>
     <footer>

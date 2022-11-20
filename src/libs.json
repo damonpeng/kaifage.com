@@ -40,6 +40,7 @@
 				"图片",
 				[
 					["https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git"],
+                    [ "", "", "", "", "" ],
                     [ "", "", "", "", "" ]
 				]
 			]

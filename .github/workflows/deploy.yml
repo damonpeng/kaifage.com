@@ -48,4 +48,4 @@ jobs:
           sftp_only: true
           delete_remote_files: true
           local_path: './dist/*'
-          remote_path: '/data/services/kaifage.com-github'
+          remote_path: '/data/github_actions/kaifage.com/'

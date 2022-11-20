@@ -44,7 +44,7 @@ footer {text-align:center;padding:50px 0 30px}
 .series-title {font-size:1.6rem;padding-bottom:3px;color:var(--series-color);border-bottom:1px solid var(--series-border-color)}
 .groups {display:flex;flex-wrap:wrap;align-content:flex-start;justify-content:flex-start;margin-top:5px}
 .group {display:flex;max-width:500px;min-width:300px;margin-bottom:8px;margin-right:30px}
-.group img {height:14px;opacity:0.8;vertical-align:middle}
+.group img {height:16px;opacity:0.4;vertical-align:middle}
 .github-url:hover img {opacity:1}
 .group-title {width:20px;padding:5px;font-size:1,4rem;font-style:italic;font-weight:400;color:var(--group-color);word-wrap:break-word;letter-spacing:5px}
 .sites {flex:2}

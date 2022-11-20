@@ -11,7 +11,7 @@
                     [ "https://www.bilibili.com/", "哔哩哔哩", "", "" ],
                     [ "https://fm.douban.com/", "豆瓣FM", "", "" ],
                     [ "https://leetcode.cn/problemset/all/", "LeeCode", "", "" ],
-                    [ "https://dayanmo.com/", "🧿大眼魔", "", "" ],
+                    [ "https://dayanmo.com/", "大眼魔🧿", "", "" ],
                     [ "", "", "", "" ]
                 ]
             ],
@@ -101,7 +101,7 @@
                 [
                     [ "https://www.getemoji.com/", "emoji", "符号列表","https://www.getemoji.com/assets/ico/favicon.png" ],
                     [ "http://www.osbaike.net/handbook/htmlchar.htm", "HTML编码", "", "" ],
-                    [ "https://www.ios-resolution.com/", "iPhone分辨率查询", "", "" ],
+                    [ "https://www.ios-resolution.com/", "iPhone分辨率查询", "", "https://www.apple.com/v/iphone/home/bk/images/chapternav/shop_iphone_light__b2toggskllle_large.svg" ],
                     [ "", "", "", "" ]
                 ]
             ]

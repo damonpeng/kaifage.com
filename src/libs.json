@@ -2,21 +2,37 @@
 	[
 		"前端",
 		[
-			"动画库",
 			[
-				["https://animejs.com/", "", "轻量的JS动画库，可对CSS属性、SVG、DOM和JS对象进行动画。", "https://animejs.com/documentation/assets/img/apple-touch-icon.png"]
-			]
-		],
-		[
-			"图表库",
+				"MVVM框架",
+				[
+					["https://reactjs.org/docs/getting-started.html", "React", "facebook", "https://reactjs.org/logo-180x180.png", "git@github.com:facebook/react.git"],
+					["https://cn.vuejs.org/guide/introduction.html", "Vue.js", "", "https://vuejs.org/images/logo.png", "git@github.com:vuejs/core.git"],
+					["https://svelte.dev/docs", "SVELTE", "无需VDOM", "https://svelte.dev/favicon.png", "git@github.com:sveltejs/svelte.git"]
+				]
+			],
 			[
-				["https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png"]
-			]
-		],
-		[
-			"图片预览",
+				"动态框架",
+				[
+					["https://reactnative.dev/docs/getting-started", "React Native", "", "https://reactnative.dev/img/pwa/manifest-icon-512.png", "git@github.com:facebook/react-native.git"]
+				]
+			],
 			[
-				["https://photoswipe.com/", "PhotoSwipe", "JS图片画廊，基于lightbox", "https://photoswipe.com/img/favicon-16x16.png"]
+				"动画",
+				[
+					["https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git"]
+				]
+			],
+			[
+				"图表",
+				[
+					["https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png", "git@github.com:apache/echarts.git"]
+				]
+			],
+			[
+				"图片",
+				[
+					["https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git"]
+				]
 			]
 		]
 	]

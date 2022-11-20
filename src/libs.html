@@ -16,7 +16,7 @@
   gtag('js', new Date());
   gtag('config', 'G-RJMEZZFVRX');
 </script>
-<title>🐝 开发哥</title>
+<title>🐼代码库-开发哥</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <!-- <meta http-equiv="Content-Security-Policy" content="script-src *.kaifage.com"> -->
@@ -105,20 +105,25 @@ footer {text-align:center;padding:50px 0 30px}
     to {-webkit-transform:translateY(5%) rotate(7deg) translateX(5%);transform:translateY(5%) rotate(7deg) translateX(5%)}
 }
 </style>
+<style>
+.group {max-width:500px}
+.group img {height:16px;opacity:0.8;vertical-align:top}
+.site-url:hover img {opacity:1}
+</style>
 </head>
 <body class="container" id="container">
     <header class="container-header">
         <h1 class="logo"><span class="prefix bee-flying">🐝</span> 开发哥 <small>技术分享</small></h1>
         <nav class="navigation">
-            <a href="/" class="current">🐻 工具箱</a>
-            <a href="/libs.html">🐼 代码库</a>
+            <a href="/">🐻 工具箱</a>
+            <a href="/libs.html" class="current">🐼 代码库</a>
             <a href="/snippets.html">🐻‍❄️ 代码片段</a>
             <a href="/index.php">🐨 开发哥笔记</a>
         </nav>
         <div class="theme" id="changeTheme" title="换肤">🦄</div>
     </header>
     <section id="content">
-        {{%PLH_URLS_CONTENT%}}
+        {{%PLH_LIBS_CONTENT%}}
     </section>
     <footer>
         <a href=" http://kaifage.com/feedback.html">建议反馈</a>

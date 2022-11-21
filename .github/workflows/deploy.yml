@@ -9,8 +9,9 @@ on:
     #   - README.md
     #   - LICENSE
     paths: # 指定哪些文件改变时触发
-      - src/**
       - index.js
+      - template/**
+      - data/**
 
 jobs:
   deploy:

@@ -2,20 +2,20 @@ const fs = require('fs');
 
 const config = [
     {
-        data: './src/urls.json',
-        source: './src/index.html',
+        data: './data/urls.json',
+        source: './template/index.html',
         target: './dist/index.html',
         holder: 'PLH_URLS_CONTENT'
     },
     {
-        data: './src/libs.json',
-        source: './src/libs.html',
+        data: './data/libs.json',
+        source: './template/libs.html',
         target: './dist/libs.html',
         holder: 'PLH_LIBS_CONTENT'
     },
     {
-        data: './src/snippets.json',
-        source: './src/snippets.html',
+        data: './data/snippets.json',
+        source: './template/snippets.html',
         target: './dist/snippets.html',
         holder: 'PLH_SNIPPETS_CONTENT'
     }
@@ -39,6 +39,7 @@ footer {text-align:center;padding:50px 0 30px}
 .navigation a.current {border-bottom:3px solid var(--link-color)}
 .navigation a:hover {border-bottom:3px dashed var(--link-color)}
 .theme {position:absolute;top:10px;right:20px;font-size:2.4rem;cursor:pointer;transition:transform .5s ease-in-out}
+.contribute {position:absolute;top:16px;right:70px;font-size:1.3rem;padding-left:16px;background:url(https://github.githubassets.com/favicons/favicon.png) no-repeat 0 1px/14px}
 .container-body{margin-top:20px}
 .series {margin-bottom:10px}
 .series-title {font-size:1.6rem;padding-bottom:3px;color:var(--series-color);border-bottom:1px solid var(--series-border-color)}

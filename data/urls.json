@@ -10,7 +10,7 @@
                     [ "https://web.postman.co/onboarding/user", "Postman", "构造请求", "" ],
                     [ "https://www.telerik.com/fiddler/fiddler-classic", "Fiddler", "HTTP抓包(Win)", "" ],
                     [ "https://www.charlesproxy.com/download/", "Charles", "HTTP抓包(Mac)", "https://www.charlesproxy.com/static/img/icon.850a44d2.png" ],
-                    [ "https://cli.im/", "生成二维码", "", "" ],
+                    [ "https://cli.im/", "生成二维码", "", ""  ],
                     [ "https://regex101.com/", "正则测试", "", "" ]
                 ]
             ],

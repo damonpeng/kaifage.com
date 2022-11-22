@@ -1,82 +1,90 @@
 [
-	[
-		"前端",
-		[
-			[
-				"框架",
-				[
-					["https://reactjs.org/docs/getting-started.html", "React", "facebook", "https://reactjs.org/logo-180x180.png", "git@github.com:facebook/react.git"],
-					["https://cn.vuejs.org/guide/introduction.html", "Vue.js", "", "https://vuejs.org/images/logo.png", "git@github.com:vuejs/core.git"],
-					["https://svelte.dev/docs", "SVELTE", "无VDOM", "https://svelte.dev/favicon.png", "git@github.com:sveltejs/svelte.git"],
-                    [ "", "", "", "", "" ]
-				]
-			],
-			[
-				"动态框架",
-				[
-					["https://reactnative.dev/docs/getting-started", "React Native", "", "https://reactnative.dev/img/pwa/manifest-icon-512.png", "git@github.com:facebook/react-native.git"],
-                    [ "https://docs.flutter.dev/get-started/install", "Flutter", "", "https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png", "git@github.com:flutter/flutter.git" ],
-                    [ "", "", "", "", "" ]
-				]
-			],
-			[
-				"UI组件库",
-				[
-                    [ "https://tdesign.tencent.com/", "TDesign", "Vue、React、小程序", "", "git@github.com:Tencent/tdesign.git" ],
-                    [ "https://ant.design/index-cn", "Ant Design", "React", "", "git@github.com:ant-design/ant-design.git" ],
-                    [ "https://element.eleme.cn/#/zh-CN/component/installation", "ElementUI", "Vue 2", "", "" ],
-                    [ "", "", "", "", "" ]
-				]
-			],
-			[
-				"动画",
-				[
-					["https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git"],
-                    [ "https://animate.style/", "Animate.css", "", "https://animate.style/img/favicon.ico", "git@github.com:animate-css/animate.css.git" ],
-                    [ "", "", "", "", "" ]
-				]
-			],
-			[
-				"数据可视化",
-				[
-					["https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png", "git@github.com:apache/echarts.git"],
-                    [ "https://www.chartjs.org/docs/latest/samples/information.html", "Chart.js", "轻量图表", "https://www.chartjs.org/favicon.ico", "git@github.com:chartjs/Chart.js.git" ],
-					["https://d3js.org/", "D3", "", "https://d3js.org/favicon.png", "git@github.com:d3/d3.git"],
-                    [ "", "", "", "", "" ]
-				]
-			],
-			[
-				"图片",
-				[
-					["https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git"],
-                    [ "", "", "", "", "" ],
-                    [ "", "", "", "", "" ]
-				]
-			]
-		]
-	],
-	[
-
-        "机器学习",
+  [
+    "前端",
+    [
+      [
+        "框架",
         [
-            [
-                "框架",
-                [
-                    [ "https://tensorflow.google.cn/tutorials", "TensorFlow", "", "https://www.gstatic.cn/devrel-devsite/prod/vc890b700b898929d6a9586ce333c0fb7d88f26c0e62aab16b11d9d648f110bfc/tensorflow/images/favicon.png", "git@github.com:tensorflow/tensorflow.git" ],
-                    [ "https://keras.io/api/", "Keras", "", "", "git@github.com:keras-team/keras.git" ],
-                    [ "https://pytorch.org/tutorials/", "PyTorch", "", "", "git@github.com:pytorch/pytorch.git" ],
-                    [ "http://caffe.berkeleyvision.org/doxygen/annotated.html", "Caffe", "", "http://caffe.berkeleyvision.org/images/caffeine-icon.png", "git@github.com:BVLC/caffe.git" ],
-                    [ "", "", "", "", "" ]
-                ]
-            ],
-            [
-                "工具库",
-                [
-                    [ "https://matplotlib.org/stable/tutorials/index.html", "Matplotlib", "Python绘图库", "https://matplotlib.org/stable/_static/favicon.ico", "git@github.com:matplotlib/matplotlib.git" ],
-                    [ "https://numpy.org/doc/stable/", "NumPy", "", "https://numpy.org/doc/stable/_static/favicon.ico", "git@github.com:numpy/numpy.git" ],
-                    [ "", "", "", "", "" ]
-                ]
-            ]
-		]
-	]
+          ["https://reactjs.org/docs/getting-started.html", "React", "facebook", "https://reactjs.org/logo-180x180.png", "git@github.com:facebook/react.git"],
+          ["https://cn.vuejs.org/guide/introduction.html", "Vue.js", "", "https://vuejs.org/images/logo.png", "git@github.com:vuejs/core.git"],
+          ["https://svelte.dev/docs", "SVELTE", "无VDOM", "https://svelte.dev/favicon.png", "git@github.com:sveltejs/svelte.git"],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "动态框架",
+        [
+          ["https://reactnative.dev/docs/getting-started", "React Native", "", "https://reactnative.dev/img/pwa/manifest-icon-512.png", "git@github.com:facebook/react-native.git"],
+          [ "https://docs.flutter.dev/get-started/install", "Flutter", "", "https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png", "git@github.com:flutter/flutter.git" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "UI组件库",
+        [
+          [ "https://tdesign.tencent.com/", "TDesign", "Vue、React、小程序", "", "git@github.com:Tencent/tdesign.git" ],
+          [ "https://ant.design/index-cn", "Ant Design", "React", "", "git@github.com:ant-design/ant-design.git" ],
+          [ "https://element.eleme.cn/#/zh-CN/component/installation", "ElementUI", "Vue 2", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "CSS库",
+        [
+          [ "https://tailwindcss.com/docs/installation", "Tailwind CSS", "功能优先", "https://tailwindcss.com/favicons/favicon-32x32.png", "git@github.com:tailwindlabs/tailwindcss.git" ],
+          [ "https://bulma.io/documentation/overview/start/", "Bulma", "移动端优先，体积小", "https://bulma.io/favicons/favicon-32x32.png", "git@github.com:jgthms/bulma.git" ],
+          [ "https://wechat-miniprogram.github.io/weui/docs/", "WeUI", "微信小程序UI", "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico", "git@github.com:wechat-miniprogram/weui-miniprogram.git" ]
+        ]
+      ],
+      [
+        "动画",
+        [
+          ["https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git"],
+          [ "https://animate.style/", "Animate.css", "", "https://animate.style/img/favicon.ico", "git@github.com:animate-css/animate.css.git" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "数据可视化",
+        [
+          ["https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png", "git@github.com:apache/echarts.git"],
+          [ "https://www.chartjs.org/docs/latest/samples/information.html", "Chart.js", "轻量图表", "https://www.chartjs.org/favicon.ico", "git@github.com:chartjs/Chart.js.git" ],
+          ["https://d3js.org/", "D3", "", "https://d3js.org/favicon.png", "git@github.com:d3/d3.git"],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "图片",
+        [
+          ["https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git"],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
+      ]
+    ]
+  ],
+  [
+
+    "机器学习",
+    [
+      [
+        "框架",
+        [
+          [ "https://tensorflow.google.cn/tutorials", "TensorFlow", "", "https://www.gstatic.cn/devrel-devsite/prod/vc890b700b898929d6a9586ce333c0fb7d88f26c0e62aab16b11d9d648f110bfc/tensorflow/images/favicon.png", "git@github.com:tensorflow/tensorflow.git" ],
+          [ "https://keras.io/api/", "Keras", "", "", "git@github.com:keras-team/keras.git" ],
+          [ "https://pytorch.org/tutorials/", "PyTorch", "", "", "git@github.com:pytorch/pytorch.git" ],
+          [ "http://caffe.berkeleyvision.org/doxygen/annotated.html", "Caffe", "", "http://caffe.berkeleyvision.org/images/caffeine-icon.png", "git@github.com:BVLC/caffe.git" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "工具库",
+        [
+          [ "https://matplotlib.org/stable/tutorials/index.html", "Matplotlib", "Python绘图库", "https://matplotlib.org/stable/_static/favicon.ico", "git@github.com:matplotlib/matplotlib.git" ],
+          [ "https://numpy.org/doc/stable/", "NumPy", "", "https://numpy.org/doc/stable/_static/favicon.ico", "git@github.com:numpy/numpy.git" ],
+          [ "", "", "", "", "" ]
+        ]
+      ]
+    ]
+  ]
 ]

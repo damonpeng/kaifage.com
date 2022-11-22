@@ -1,189 +1,189 @@
 [
+  [
+    "常用站点",
     [
-        "常用站点",
+      [
+        "工具",
         [
-            [
-                "工具",
-                [
-                    [ "https://code.visualstudio.com/", "VS Code", "IDE", "https://code.visualstudio.com/apple-touch-icon.png" ],
-                    [ "https://www.sublimetext.com/3", "Sublime Text", "文本编辑器", "https://www.sublimetext.com/images/icon.png" ],
-                    [ "https://web.postman.co/onboarding/user", "Postman", "构造请求", "" ],
-                    [ "https://www.telerik.com/fiddler/fiddler-classic", "Fiddler", "HTTP抓包(Win)", "" ],
-                    [ "https://www.charlesproxy.com/download/", "Charles", "HTTP抓包(Mac)", "https://www.charlesproxy.com/static/img/icon.850a44d2.png" ],
-                    [ "https://cli.im/", "生成二维码", "", ""  ],
-                    [ "https://regex101.com/", "正则测试", "", "" ]
-                ]
-            ],
-            [
-                "办公",
-                [
-                    [ "http://docs.qq.com/", "腾讯文档", "在线文档", "https://docs.gtimg.com/desktop/favicon2.ico" ],
-                    [ "http://draw.io/", "draw.io", "在线流程图", "" ],
-                    [ "https://mubu.com/", "幕布", "在线思维导图", "" ],
-                    [ "https://ps.gaoding.com/", "稿定", "在线PS", "" ],
-                    [ "https://www.remove.bg/zh", "自动移除背景", "", "https://www.remove.bg/favicon-32x32.png" ],
-                    [ "https://editor.mdnice.com/", "在线Markdown", "", "https://editor.mdnice.com/favicon.svg" ],
-                    [ "", "", "", "" ]
-                ]
-            ],
-            [
-                "休闲",
-                [
-                    [ "https://www.zhihu.com/", "知乎", "", "" ],
-                    [ "https://tophub.today/", "今日热榜", "", "" ],
-                    [ "https://www.bilibili.com/", "哔哩哔哩", "", "" ],
-                    [ "https://fm.douban.com/", "豆瓣FM", "", "" ],
-                    [ "https://leetcode.cn/problemset/all/", "LeeCode", "", "" ],
-                    [ "https://dayanmo.com/", "大眼魔🧿", "", "" ],
-                    [ "", "", "", "" ]
-                ]
-            ],
-            [
-                "小游戏",
-                [
-                    [ "http://slither.io/", "贪吃蛇", "", "http://slither.io/s/favicon.png" ],
-                    [ "https://poki.cn/g/2048", "2048", "", "https://a.poki.com/icons/fav-512.png" ],
-                    [ "https://pvz.ee/", "植物大战僵尸", "", "" ],
-                    [ "https://poki.cn/", "各种小游戏", "", "https://a.poki.com/icons/fav-512.png" ],
-                    [ "", "", "", "" ]
-                ]
-            ]
+          [ "https://code.visualstudio.com/", "VS Code", "IDE", "https://code.visualstudio.com/apple-touch-icon.png" ],
+          [ "https://www.sublimetext.com/3", "Sublime Text", "文本编辑器", "https://www.sublimetext.com/images/icon.png" ],
+          [ "https://web.postman.co/onboarding/user", "Postman", "构造请求", "" ],
+          [ "https://www.telerik.com/fiddler/fiddler-classic", "Fiddler", "HTTP抓包(Win)", "" ],
+          [ "https://www.charlesproxy.com/download/", "Charles", "HTTP抓包(Mac)", "https://www.charlesproxy.com/static/img/icon.850a44d2.png" ],
+          [ "https://cli.im/", "生成二维码", "", ""  ],
+          [ "https://regex101.com/", "正则测试", "", "" ]
         ]
-    ],
-    [
-        "运维工具",
+      ],
+      [
+        "办公",
         [
-            [
-                "工具",
-                [
-                    [ "https://www.17ce.com/", "网站网速", "", "https://www.17ce.com/smedia/images/favicon.ico" ],
-                    [ "https://test.ustc.edu.cn/", "网络测速", "", "https://test.ustc.edu.cn/favicon.ico" ],
-                    [ "https://whois.cloud.tencent.com/", "WHOIS", "域名信息查询", "https://imgcache.qq.com/qcloud/app/resource/ac/favicon.ico" ],
-                    [ "https://www.ip138.com/", "IP138", "IP 地址查询", "https://www.ip138.com/favicon.ico" ],
-                    [ "https://www.ipip.net/ip.html", "IPIP.NET", "IP经纬度查询", "https://www.ipip.net/favicon.ico" ],
-                    [ "https://wangchujiang.com/linux-command/hot.html", "Linux命令查询", "", "https://wangchujiang.com/linux-command/img/favicon.ico" ],
-                    [ "", "", "", "" ]
-                ]
-            ],
-            [
-                "建站",
-                [
-                    [ "https://buy.cloud.tencent.com/domain", "域名注册", "", "https://imgcache.qq.com/qcloud/app/resource/ac/favicon.ico" ],
-                    [ "https://console.cloud.tencent.com/", "腾讯云", "", "https://imgcache.qq.com/qcloud/app/resource/ac/favicon.ico" ],
-                    [ "https://home.console.aliyun.com/", "阿里云", "", "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico" ],
-                    [ "https://analytics.google.com/", "Google统计", "", "https://ssl.gstatic.com/analytics/analytics-frontend.indexpage_20221115.06_p0/index/static/analytics_standard_icon.png" ],
-                    [ "", "", "", "" ]
-                ]
-            ]
+          [ "http://docs.qq.com/", "腾讯文档", "在线文档", "https://docs.gtimg.com/desktop/favicon2.ico" ],
+          [ "http://draw.io/", "draw.io", "在线流程图", "" ],
+          [ "https://mubu.com/", "幕布", "在线思维导图", "" ],
+          [ "https://ps.gaoding.com/", "稿定", "在线PS", "" ],
+          [ "https://www.remove.bg/zh", "自动移除背景", "", "https://www.remove.bg/favicon-32x32.png" ],
+          [ "https://editor.mdnice.com/", "在线Markdown", "", "https://editor.mdnice.com/favicon.svg" ],
+          [ "", "", "", "" ]
         ]
-    ],
-    [
-        "前端工程",
+      ],
+      [
+        "休闲",
         [
-            [
-                "文档",
-                [
-                    [ "https://cn.vuejs.org/guide/introduction.html", "Vue.js", "", "https://cn.vuejs.org/logo.svg" ],
-                    [ "https://zh-hans.reactjs.org/docs/getting-started.html", "React", "", "" ],
-                    [ "https://developers.weixin.qq.com/miniprogram/dev/framework/", "小程序", "", "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" ],
-                    [ "https://standardjs.com/rules-zhcn.html", "JS代码规范", "", "" ],
-                    [ "https://developer.mozilla.org/zh-CN/", "MDN", "HTML/CSS/JS文档", "" ],
-                    [ "https://caniuse.com/", "CanIUse", "浏览器特性检测", "https://caniuse.com/img/favicon-128.png" ]
-                    
-                ]
-            ],
-            [
-                "工具",
-                [
-                    [ "https://jsoneditoronline.org/", "JSON格式化", "", "" ],
-                    [ "https://skalman.github.io/UglifyJS-online/", "UglifyJS", "JS压缩", "https://skalman.github.io/UglifyJS-online/favicon.ico" ],
-                    [ "https://tinify.cn/", "TinyPNG", "图片压缩", "https://tinify.cn/images/favicon.ico" ],
-                    [ "https://beautifier.io/", "js-beautify", "代码格式化", "https://beautifier.io/web/favicon.png" ],
-                    [ "http://www.jsons.cn/utf8/", "", "编码转换", "" ],
-                    [ "https://tool.lu/favicon/", "Favicon生成器", "", "" ],
-                    [ "https://codesandbox.io/s/", "CodeSandBox", "在线演练", "" ]
-                ]
-            ],
-            [
-                "资源",
-                [
-                    [ "https://www.getemoji.com/", "emoji", "符号列表","https://www.getemoji.com/assets/ico/favicon.png" ],
-                    [ "http://www.osbaike.net/handbook/htmlchar.htm", "HTML编码", "", "" ],
-                    [ "https://www.ios-resolution.com/", "iPhone分辨率查询", "", "https://www.apple.com/v/iphone/home/bk/images/chapternav/shop_iphone_light__b2toggskllle_large.svg" ],
-                    [ "", "", "", "" ]
-                ]
-            ]
+          [ "https://www.zhihu.com/", "知乎", "", "" ],
+          [ "https://tophub.today/", "今日热榜", "", "" ],
+          [ "https://www.bilibili.com/", "哔哩哔哩", "", "" ],
+          [ "https://fm.douban.com/", "豆瓣FM", "", "" ],
+          [ "https://leetcode.cn/problemset/all/", "LeeCode", "", "" ],
+          [ "https://dayanmo.com/", "大眼魔🧿", "", "" ],
+          [ "", "", "", "" ]
         ]
-    ],
-    [
-        "后台工程",
+      ],
+      [
+        "小游戏",
         [
-            [
-                "C++",
-                [
-                    [ "https://en.cppreference.com/w/", "C++手册", "", "" ],
-                    [ "https://wandbox.org/", "Wandbox", "在线编译", "" ],
-                    [ "https://quick-bench.com/q/kaifage.com", "在线Benchmark", "", "" ],
-                    [ "https://gcc.godbolt.org/", "编译成汇编", "", "" ],
-                    [ "https://build-bench.com/b/kaifage.com", "Compare C++ Builds", "", "" ],
-                    [ "https://cppinsights.io/", "C++ Insights", "", "" ],
-                    [ "https://www.wireshark.org/", "Wireshark", "各协议抓包工具", "https://www.wireshark.org/assets/images/favicon.ico" ]
-                ]
-            ],
-            [
-                "PHP",
-                [
-                    [ "https://www.unserialize.com/", "反序列化", "","" ],
-                    [ "https://onlinephp.io/", "在线运行", "", "https://onlinephp.io/apple-touch-icon.png" ]
-                ]
-            ],
-            [
-                "数据库",
-                [
-                    [ "https://www.sqlfather.com/", "SQL数据生成", "","data:image/png;base64,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" ],
-                    [ "", "", "", "" ]
-                ]
-            ]
+          [ "http://slither.io/", "贪吃蛇", "", "http://slither.io/s/favicon.png" ],
+          [ "https://poki.cn/g/2048", "2048", "", "https://a.poki.com/icons/fav-512.png" ],
+          [ "https://pvz.ee/", "植物大战僵尸", "", "" ],
+          [ "https://poki.cn/", "各种小游戏", "", "https://a.poki.com/icons/fav-512.png" ],
+          [ "", "", "", "" ]
         ]
-    ],
-    [
-        "机器学习",
-        [
-            [
-                "文档",
-                [
-                    [ "https://docs.python.org/zh-cn/3/tutorial/index.html", "Python 3手册", "", "" ],
-                    [ "", "", "", "" ]
-                ]
-            ],
-            [
-                "大赛",
-                [
-                    [ "https://www.kaggle.com/", "Kaggle", "综合型", "" ],
-                    [ "https://www.image-net.org/", "ImageNet", "图像识别", "https://www.image-net.org/static_files/favicon.png" ],
-                    [ "https://www.thecvf.com/", "CVPR", "模式识别", "https://www.thecvf.com/wp-content/uploads/2020/06/cropped-cvf-icon-small-32x32.png" ],
-                    [ "", "", "", "" ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "设计资源",
-        [
-            [
-                "创意",
-                [
-                    [ "https://dribbble.com/", "Dribbble", "", "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png" ],
-                    [ "https://unsplash.com/s/photos/sports", "免费素材", "", "" ],
-                    [ "https://huaban.com/discovery/all/materials", "花瓣素材", "", "" ],
-                    [ "https://webgradients.com/", "渐变色", "", "https://webgradients.com/favicons/favicon-32x32.png" ],
-                    [ "https://materialui.co/colors", "配色", "", "https://materialui.co/favicon.gif" ],
-                    [ "http://zhongguose.com/", "中国色", "古典色值", "http://zhongguose.com/img/favicon.ico" ],
-                    [ "https://fontawesome.com/search?m=free&o=r", "Font Awesome", "开源ICON", "https://fontawesome.com/images/favicon/apple-touch-icon.png" ],
-                    [ "https://openmoji.org/", "OpenMoij", "开源emoji", "https://openmoji.org/favicons/favicon-32x32.png" ],
-                    [ "", "", "", "" ]
-                ]
-            ]
-        ]
+      ]
     ]
+  ],
+  [
+    "运维工具",
+    [
+      [
+        "工具",
+        [
+          [ "https://www.17ce.com/", "网站网速", "", "https://www.17ce.com/smedia/images/favicon.ico" ],
+          [ "https://test.ustc.edu.cn/", "网络测速", "", "https://test.ustc.edu.cn/favicon.ico" ],
+          [ "https://whois.cloud.tencent.com/", "WHOIS", "域名信息查询", "https://imgcache.qq.com/qcloud/app/resource/ac/favicon.ico" ],
+          [ "https://www.ip138.com/", "IP138", "IP 地址查询", "https://www.ip138.com/favicon.ico" ],
+          [ "https://www.ipip.net/ip.html", "IPIP.NET", "IP经纬度查询", "https://www.ipip.net/favicon.ico" ],
+          [ "https://wangchujiang.com/linux-command/hot.html", "Linux命令查询", "", "https://wangchujiang.com/linux-command/img/favicon.ico" ],
+          [ "", "", "", "" ]
+        ]
+      ],
+      [
+        "建站",
+        [
+          [ "https://buy.cloud.tencent.com/domain", "域名注册", "", "https://imgcache.qq.com/qcloud/app/resource/ac/favicon.ico" ],
+          [ "https://console.cloud.tencent.com/", "腾讯云", "", "https://imgcache.qq.com/qcloud/app/resource/ac/favicon.ico" ],
+          [ "https://home.console.aliyun.com/", "阿里云", "", "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico" ],
+          [ "https://analytics.google.com/", "Google统计", "", "https://ssl.gstatic.com/analytics/analytics-frontend.indexpage_20221115.06_p0/index/static/analytics_standard_icon.png" ],
+          [ "", "", "", "" ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "前端工程",
+    [
+      [
+        "文档",
+        [
+          [ "https://cn.vuejs.org/guide/introduction.html", "Vue.js", "", "https://cn.vuejs.org/logo.svg" ],
+          [ "https://zh-hans.reactjs.org/docs/getting-started.html", "React", "", "" ],
+          [ "https://developers.weixin.qq.com/miniprogram/dev/framework/", "小程序", "", "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" ],
+          [ "https://standardjs.com/rules-zhcn.html", "JS代码规范", "", "" ],
+          [ "https://developer.mozilla.org/zh-CN/", "MDN", "HTML/CSS/JS文档", "" ],
+          [ "https://caniuse.com/", "CanIUse", "浏览器特性检测", "https://caniuse.com/img/favicon-128.png" ]
+          
+        ]
+      ],
+      [
+        "工具",
+        [
+          [ "https://jsoneditoronline.org/", "JSON格式化", "", "" ],
+          [ "https://skalman.github.io/UglifyJS-online/", "UglifyJS", "JS压缩", "https://skalman.github.io/UglifyJS-online/favicon.ico" ],
+          [ "https://tinify.cn/", "TinyPNG", "图片压缩", "https://tinify.cn/images/favicon.ico" ],
+          [ "https://beautifier.io/", "js-beautify", "代码格式化", "https://beautifier.io/web/favicon.png" ],
+          [ "http://www.jsons.cn/utf8/", "", "编码转换", "" ],
+          [ "https://tool.lu/favicon/", "Favicon生成器", "", "" ],
+          [ "https://codesandbox.io/s/", "CodeSandBox", "在线演练", "" ]
+        ]
+      ],
+      [
+        "资源",
+        [
+          [ "https://www.getemoji.com/", "emoji", "符号列表","https://www.getemoji.com/assets/ico/favicon.png" ],
+          [ "http://www.osbaike.net/handbook/htmlchar.htm", "HTML编码", "", "" ],
+          [ "https://www.ios-resolution.com/", "iPhone分辨率查询", "", "https://www.apple.com/v/iphone/home/bk/images/chapternav/shop_iphone_light__b2toggskllle_large.svg" ],
+          [ "", "", "", "" ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "后台工程",
+    [
+      [
+        "C++",
+        [
+          [ "https://en.cppreference.com/w/", "C++手册", "", "" ],
+          [ "https://wandbox.org/", "Wandbox", "在线编译", "" ],
+          [ "https://quick-bench.com/q/kaifage.com", "在线Benchmark", "", "" ],
+          [ "https://gcc.godbolt.org/", "编译成汇编", "", "" ],
+          [ "https://build-bench.com/b/kaifage.com", "Compare C++ Builds", "", "" ],
+          [ "https://cppinsights.io/", "C++ Insights", "", "" ],
+          [ "https://www.wireshark.org/", "Wireshark", "各协议抓包工具", "https://www.wireshark.org/assets/images/favicon.ico" ]
+        ]
+      ],
+      [
+        "PHP",
+        [
+          [ "https://www.unserialize.com/", "反序列化", "","" ],
+          [ "https://onlinephp.io/", "在线运行", "", "https://onlinephp.io/apple-touch-icon.png" ]
+        ]
+      ],
+      [
+        "数据库",
+        [
+          [ "https://www.sqlfather.com/", "SQL数据生成", "","data:image/png;base64,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" ],
+          [ "", "", "", "" ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "机器学习",
+    [
+      [
+        "文档",
+        [
+          [ "https://docs.python.org/zh-cn/3/tutorial/index.html", "Python 3手册", "", "" ],
+          [ "", "", "", "" ]
+        ]
+      ],
+      [
+        "大赛",
+        [
+          [ "https://www.kaggle.com/", "Kaggle", "综合型", "" ],
+          [ "https://www.image-net.org/", "ImageNet", "图像识别", "https://www.image-net.org/static_files/favicon.png" ],
+          [ "https://www.thecvf.com/", "CVPR", "模式识别", "https://www.thecvf.com/wp-content/uploads/2020/06/cropped-cvf-icon-small-32x32.png" ],
+          [ "", "", "", "" ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "设计资源",
+    [
+      [
+        "创意",
+        [
+          [ "https://dribbble.com/", "Dribbble", "", "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png" ],
+          [ "https://unsplash.com/s/photos/sports", "免费素材", "", "" ],
+          [ "https://huaban.com/discovery/all/materials", "花瓣素材", "", "" ],
+          [ "https://webgradients.com/", "渐变色", "", "https://webgradients.com/favicons/favicon-32x32.png" ],
+          [ "https://materialui.co/colors", "配色", "", "https://materialui.co/favicon.gif" ],
+          [ "http://zhongguose.com/", "中国色", "古典色值", "http://zhongguose.com/img/favicon.ico" ],
+          [ "https://fontawesome.com/search?m=free&o=r", "Font Awesome", "开源ICON", "https://fontawesome.com/images/favicon/apple-touch-icon.png" ],
+          [ "https://openmoji.org/", "OpenMoij", "开源emoji", "https://openmoji.org/favicons/favicon-32x32.png" ],
+          [ "", "", "", "" ]
+        ]
+      ]
+    ]
+  ]
 ]

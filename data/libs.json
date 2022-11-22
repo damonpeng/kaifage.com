@@ -20,6 +20,15 @@
 				]
 			],
 			[
+				"UI组件库",
+				[
+                    [ "https://tdesign.tencent.com/", "TDesign", "Vue、React、小程序", "", "git@github.com:Tencent/tdesign.git" ],
+                    [ "https://ant.design/index-cn", "Ant Design", "React", "", "git@github.com:ant-design/ant-design.git" ],
+                    [ "https://element.eleme.cn/#/zh-CN/component/installation", "ElementUI", "Vue 2", "", "" ],
+                    [ "", "", "", "", "" ]
+				]
+			],
+			[
 				"动画",
 				[
 					["https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git"],
@@ -61,7 +70,7 @@
                 ]
             ],
             [
-                "文档",
+                "工具库",
                 [
                     [ "https://matplotlib.org/stable/tutorials/index.html", "Matplotlib", "Python绘图库", "https://matplotlib.org/stable/_static/favicon.ico", "git@github.com:matplotlib/matplotlib.git" ],
                     [ "https://numpy.org/doc/stable/", "NumPy", "", "https://numpy.org/doc/stable/_static/favicon.ico", "git@github.com:numpy/numpy.git" ],

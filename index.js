@@ -1,4 +1,5 @@
 const fs = require('fs');
+const getDirName = require('path').dirname;
 
 const config = [
     {
@@ -181,7 +182,9 @@ function genContent(config) {
                     .replace('{{%PLH_STYLE_CONTENT%}}', styleContent)
                     .replace('{{%PLH_SCRIPT_CONTENT%}}', scriptContent);
 
-    fs.writeFileSync(config.target, targetContent);
+    fs.mkdir(getDirName(config.target), { recursive: true}, function (err) {
+        fs.writeFileSync(config.target, targetContent);
+    });
 
     console.log(`Write File: ${config.target}, size: ${targetContent.length}`);
 }

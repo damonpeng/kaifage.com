@@ -86,7 +86,20 @@
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
         ]
+      ],
+      [
+        "统计",
+        [
+          [ "https://developers.weixin.qq.com/miniprogram/dev/framework/client-lib/version.html", "微信小程序基础库版本占比", "", "", "" ],
+          [ "https://developer.android.com/about/dashboards", "Android占比", "Vulkan、OpenGL ES", "", "" ],
+          [ "https://developer.apple.com/support/app-store/", "iOS版本占比(App Store)", "", "" ],
+          [ "https://mixpanel.com/trends/", "iOS版本占比(MixPanel)", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
       ]
+
+         
+ 
     ]
   ],
   [

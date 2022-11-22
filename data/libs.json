@@ -54,10 +54,10 @@
         ]
       ],
       [
-        "图片",
+        "多媒体",
         [
           ["https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git"],
-          [ "", "", "", "", "" ],
+          [ "https://wavesurfer-js.org", "wavesurfer.js", "音频图形化", "", "git@github.com:katspaugh/wavesurfer.js.git" ],
           [ "", "", "", "", "" ]
         ]
       ]

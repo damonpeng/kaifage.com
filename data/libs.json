@@ -27,7 +27,7 @@
         "UI组件库",
         [
           [ "https://tdesign.tencent.com/", "TDesign", "Vue、React、小程序", "", "git@github.com:Tencent/tdesign.git" ],
-          [ "https://ant.design/index-cn", "Ant Design", "React", "", "git@github.com:ant-design/ant-design.git" ],
+          [ "https://ant.design/index-cn", "Ant Design", "React", "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png", "git@github.com:ant-design/ant-design.git" ],
           [ "https://element.eleme.cn/#/zh-CN/component/installation", "ElementUI", "Vue 2", "", "" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ],

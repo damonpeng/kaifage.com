@@ -29,14 +29,22 @@
     ]
   ],
   [
-    "工具",
+    "配置",
     [
       [
-        "配置文件",
+        "IDE",
         [
           [ "https://codepen.io/kaifage/pen/vYrdQKv", ".gitignore", "", "", "" ],
           [ "https://codepen.io/kaifage/pen/abKqQrQ", ".editconfig", "", "", "" ],
           [ "", "", "", "" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "工具",
+        [
+          [ "https://codepen.io/kaifage/pen/GRGxMbY", "SSH 自动登录", "", "" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
         ]

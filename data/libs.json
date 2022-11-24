@@ -72,6 +72,14 @@
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
         ]
+      ],
+      [
+        "富交互",
+        [
+          ["https://sortablejs.github.io/Vue.Draggable/#/transition-example-2", "Vue.Draggable", "拖拽，基于Sortable.js，支持vue3", "https://sortablejs.github.io/Vue.Draggable/favicon.ico", "git@github.com:SortableJS/Vue.Draggable.git"],
+          [ "https://bevacqua.github.io/dragula/", "Dragula", "拖拽", "https://bevacqua.github.io/dragula/favicon.ico", "git@github.com:bevacqua/dragula.git" ],
+          [ "", "", "", "", "" ]
+        ]
       ]
     ]
   ],

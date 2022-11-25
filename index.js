@@ -158,7 +158,7 @@ function genContent(config) {
                             <span class="site-desc">${desc}</span>
                         </a>
                         ${github ?
-                            '<a class="github-url" href="https://github.com/'+ github[1] +'/'+ github[2] +'/" target="_blank" title="跳转到 github"><img src="https://img.shields.io/github/license/'+ github[1] +'/'+ github[2] +'?style=flat-square" /><img src="https://img.shields.io/github/stars/'+ github[1] +'/'+ github[2] +'?style=flat-square" /></a>'
+                            '<a class="github-url" href="https://github.com/'+ github[1] +'/'+ github[2] +'/" target="_blank" title="跳转到 github"><img src="https://img.shields.io/github/license/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /><img src="https://img.shields.io/github/stars/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /></a>'
                             : ''
                         }
                     </li>

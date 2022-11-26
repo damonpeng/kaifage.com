@@ -47,6 +47,8 @@
       [
         "动画",
         [
+          [ "https://pixijs.io/examples/", "PixiJS", "2D WebGL", "https://pixijs.com/images/favicon.png", "git@github.com:pixijs/pixijs.git" ],
+          [ "https://createjs.com/demos/easeljs/spritesheet", "CreateJS", "可组合、可独立的各组件", "https://createjs.com/assets/favicons/apple-touch-icon-72x72.png", "git@github.com:CreateJS/EaselJS.git" ],
           [ "https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git" ],
           [ "https://animate.style/", "Animate.css", "", "https://animate.style/img/favicon.ico", "git@github.com:animate-css/animate.css.git" ],
           [ "https://airbnb.io/lottie/", "Lottie", "来自Airbnb，解析Adobe After Effects导出的动画", "https://airbnb.io/lottie/images/logo.webp", "git@github.com:airbnb/lottie.git" ],
@@ -125,8 +127,6 @@
       [
         "H5 游戏引擎",
         [
-          [ "https://pixijs.io/examples/", "PixiJS", "2D WebGL", "https://pixijs.com/images/favicon.png", "git@github.com:pixijs/pixijs.git" ],
-          [ "https://createjs.com/demos/easeljs/spritesheet", "CreateJS", "可组合、可独立的各组件", "https://createjs.com/assets/favicons/apple-touch-icon-72x72.png", "git@github.com:CreateJS/EaselJS.git" ],
           [ "https://docs.egret.com/engine", "Egret Engine", "白鹭", "https://tool.egret-labs.org/egretdocs/engine/img/favicon.ico", "git@github.com:egret-labs/egret-core.git" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ],

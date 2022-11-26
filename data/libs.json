@@ -47,9 +47,9 @@
       [
         "动画",
         [
-          ["https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git"],
+          [ "https://animejs.com/", "anime.js", "轻量的JS动画库", "https://animejs.com/documentation/assets/img/apple-touch-icon.png", "git@github.com:juliangarnier/anime.git" ],
           [ "https://animate.style/", "Animate.css", "", "https://animate.style/img/favicon.ico", "git@github.com:animate-css/animate.css.git" ],
-          [ "", "", "", "", "" ],
+          [ "https://airbnb.io/lottie/", "Lottie", "来自Airbnb，解析Adobe After Effects导出的动画", "https://airbnb.io/lottie/images/logo.webp", "git@github.com:airbnb/lottie.git" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
         ]
@@ -57,9 +57,9 @@
       [
         "数据可视化",
         [
-          ["https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png", "git@github.com:apache/echarts.git"],
+          [ "https://echarts.apache.org/examples/zh/index.html", "ECharts", "", "https://echarts.apache.org/zh/images/favicon.png", "git@github.com:apache/echarts.git" ],
           [ "https://www.chartjs.org/docs/latest/samples/information.html", "Chart.js", "轻量图表", "https://www.chartjs.org/favicon.ico", "git@github.com:chartjs/Chart.js.git" ],
-          ["https://d3js.org/", "D3", "", "https://d3js.org/favicon.png", "git@github.com:d3/d3.git"],
+          [ "https://d3js.org/", "D3", "", "https://d3js.org/favicon.png", "git@github.com:d3/d3.git" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
@@ -125,6 +125,10 @@
       [
         "H5 游戏引擎",
         [
+          [ "https://pixijs.io/examples/", "PixiJS", "2D WebGL", "https://pixijs.com/images/favicon.png", "git@github.com:pixijs/pixijs.git" ],
+          [ "https://createjs.com/demos/easeljs/spritesheet", "CreateJS", "可组合、可独立的各组件", "https://createjs.com/assets/favicons/apple-touch-icon-72x72.png", "git@github.com:CreateJS/EaselJS.git" ],
+          [ "https://docs.egret.com/engine", "Egret Engine", "白鹭", "https://tool.egret-labs.org/egretdocs/engine/img/favicon.ico", "git@github.com:egret-labs/egret-core.git" ],
+          [ "", "", "", "", "" ],
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
     ]
@@ -132,7 +136,7 @@
   ]
   ],
   [
-    "解决方案",
+    "建站方案",
     [
       [
         "Blog",
@@ -144,10 +148,10 @@
         ]
       ],
       [
-        "文档",
+        "文档系统",
         [
         [ "https://www.bookstackapp.com/docs/admin/installation/", "BookStack", "适合写书", "https://www.bookstackapp.com/images/favicon-32x32.png", "git@github.com:BookStackApp/BookStack.git" ],
-        [ "", "", "", "", "" ],
+        [ "https://vuepress.vuejs.org/zh/", "VuePress", "Vue+Markdown，静态网站", "https://vuepress.vuejs.org/logo.png", "git@github.com:vuejs/vuepress.git" ],
         [ "", "", "", "", "" ],
         [ "", "", "", "", "" ]
         ]

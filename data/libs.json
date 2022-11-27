@@ -70,8 +70,8 @@
       [
         "图片",
         [
-          ["https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git"],
-          [ "", "", "", "", "" ],
+          [ "https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git" ],
+          [ "https://swiperjs.com/", "Swiper", "轮播", "https://swiperjs.com/images/favicon.png", "git@github.com:nolimits4web/swiper.git" ],
           [ "", "", "", "", "" ]
         ]
       ],

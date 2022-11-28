@@ -1,4 +1,5 @@
 const fs = require('fs');
+const getDirName = require('path').dirname;
 
 const config = [
     {
@@ -157,7 +158,7 @@ function genContent(config) {
                             <span class="site-desc">${desc}</span>
                         </a>
                         ${github ?
-                            '<a class="github-url" href="https://github.com/'+ github[1] +'/'+ github[2] +'/" target="_blank" title="跳转到 github"><img src="https://img.shields.io/github/license/'+ github[1] +'/'+ github[2] +'?style=flat-square" /><img src="https://img.shields.io/github/stars/'+ github[1] +'/'+ github[2] +'?style=flat-square" /></a>'
+                            '<a class="github-url" href="https://github.com/'+ github[1] +'/'+ github[2] +'/" target="_blank" title="跳转到 github"><img src="https://img.shields.io/github/license/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /><img src="https://img.shields.io/github/stars/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /></a>'
                             : ''
                         }
                     </li>
@@ -181,7 +182,9 @@ function genContent(config) {
                     .replace('{{%PLH_STYLE_CONTENT%}}', styleContent)
                     .replace('{{%PLH_SCRIPT_CONTENT%}}', scriptContent);
 
-    fs.writeFileSync(config.target, targetContent);
+    fs.mkdir(getDirName(config.target), { recursive: true}, function (err) {
+        fs.writeFileSync(config.target, targetContent);
+    });
 
     console.log(`Write File: ${config.target}, size: ${targetContent.length}`);
 }

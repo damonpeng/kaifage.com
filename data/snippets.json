@@ -5,21 +5,52 @@
       [
         "HTML",
         [
-          ["https://codepen.io/damonpeng/pen/rNKMpaP", "Meida Query", "", ""]
+          [ "https://codepen.io/kaifage/pen/bGKLxdW", "HTML Default Template", "", "" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
         ]
       ],
       [
         "CSS",
         [
-          ["https://codepen.io/damonpeng/pen/rNKMpaP", "Meida Query", "", ""]
+          [ "https://codepen.io/kaifage/pen/rNKMpaP", "Meida Query", "", "" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
         ]
       ],
       [
         "JS",
         [
-          ["https://codepen.io/damonpeng/pen/rNKMpaP", "Meida Query", "", ""]
+          [ "", "", "", "" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "配置",
+    [
+      [
+        "IDE",
+        [
+          [ "https://codepen.io/kaifage/pen/vYrdQKv", ".gitignore", "", "", "" ],
+          [ "https://codepen.io/kaifage/pen/abKqQrQ", ".editconfig", "", "", "" ],
+          [ "", "", "", "" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "工具",
+        [
+          [ "https://codepen.io/kaifage/pen/GRGxMbY", "SSH 自动登录", "", "" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
         ]
       ]
     ]
   ]
+
+  
 ]

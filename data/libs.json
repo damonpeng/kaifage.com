@@ -70,6 +70,14 @@
       [
         "多媒体",
         [
+          [ "https://gka.github.io/chroma.js/", "Chroma.js", "颜色转换", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:gka/chroma.js.git" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
+      ],
+      [
+        "多媒体",
+        [
           [ "https://photoswipe.com/", "PhotoSwipe", "画廊", "https://photoswipe.com/img/favicon-16x16.png", "git@github.com:dimsemenov/PhotoSwipe.git" ],
           [ "https://wavesurfer-js.org", "wavesurfer.js", "音频图形化", "", "git@github.com:katspaugh/wavesurfer.js.git" ],
           [ "https://swiperjs.com/", "Swiper", "轮播", "https://swiperjs.com/images/favicon.png", "git@github.com:nolimits4web/swiper.git" ],

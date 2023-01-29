@@ -3,9 +3,9 @@ const getDirName = require('path').dirname;
 
 const config = [
     {
-        data: './data/urls.json',
-        source: './template/index.html',
-        target: './dist/index.html',
+        data: './data/sites.json',
+        source: './template/sites.html',
+        target: './dist/sites.html',
         holder: 'PLH_URLS_CONTENT'
     },
     {

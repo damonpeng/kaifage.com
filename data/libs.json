@@ -160,8 +160,8 @@
         "文档系统",
         [
         [ "https://www.bookstackapp.com/docs/admin/installation/", "BookStack", "适合写书", "https://www.bookstackapp.com/images/favicon-32x32.png", "git@github.com:BookStackApp/BookStack.git" ],
-        [ "https://vuepress.vuejs.org/zh/", "VuePress", "Vue+Markdown，静态网站", "https://vuepress.vuejs.org/logo.png", "git@github.com:vuejs/vuepress.git" ],
-        [ "https://docusaurus.io/", "Docusaurus", "Facebook出品，支持md、react", "https://d33wubrfki0l68.cloudfront.net/c088b7acfcf11100903c44fe44f2f2d7e0f30531/47727/img/docusaurus.svg", "https://github.com/facebook/docusaurus" ],
+        [ "https://vuepress.vuejs.org/zh/", "VuePress", "Vue+Markdown", "https://vuepress.vuejs.org/logo.png", "git@github.com:vuejs/vuepress.git" ],
+        [ "https://docusaurus.io/", "Docusaurus", "React+Markdown", "https://d33wubrfki0l68.cloudfront.net/c088b7acfcf11100903c44fe44f2f2d7e0f30531/47727/img/docusaurus.svg", "https://github.com/facebook/docusaurus" ],
         [ "", "", "", "", "" ]
         ]
       ]

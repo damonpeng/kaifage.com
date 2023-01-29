@@ -147,7 +147,7 @@ function genContent(config) {
                     return;
                 }
 
-                let github = githubUrl ? githubUrl..replace(/\.git$/, '').match(/(?:\:|github\.com\/)([\w\.\-]+)\/([\w\.\-]+)(\.git|$)/) : '';
+                let github = githubUrl ? githubUrl.replace(/\.git$/, '').match(/(?:\:|github\.com\/)([\w\.\-]+)\/([\w\.\-]+)(\.git|$)/) : '';
 
                 !favicon && (favicon = url.match(/http(s)?:\/\/[^\/]*/)[0] + '/favicon.ico');
 

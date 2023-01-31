@@ -215,8 +215,8 @@
         "创意",
         [
           [ "https://dribbble.com/", "Dribbble", "", "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png" ],
-          [ "https://unsplash.com/", "Unsplash免费素材", "", "https://unsplash.com/favicon-32x32.png" ],
-          [ "https://huaban.com/materials", "花瓣商用素材", "", "https://huaban.com/favicon.ico" ],
+          [ "https://unsplash.com/", "Unsplash", "免费素材", "https://unsplash.com/favicon-32x32.png" ],
+          [ "https://huaban.com/materials", "花瓣", "商用素材", "https://huaban.com/favicon.ico" ],
           [ "https://webgradients.com/", "渐变色", "", "https://webgradients.com/favicons/favicon-32x32.png" ],
           [ "https://materialui.co/colors", "配色", "", "https://materialui.co/favicon.gif" ],
           [ "http://zhongguose.com/", "中国色", "古典色值", "http://zhongguose.com/img/favicon.ico" ],

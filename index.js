@@ -158,21 +158,18 @@ function genContent(config) {
                     <h3 class="group-title">${group[0]}</h3>
                     <ul class="sites">
             `)
-            group[1] && typeof group[1]==='string' && (group[1] = splitString(group[1]));
+            group[1] && typeof group[1][0]==='string' && (group[1] = splitString(group[1][0]).map(i=>[i]));
 
-            if (series) {
-                throw 1;
-            }
             group[1].forEach( site => {
                 let [url, title, desc, favicon, githubUrl] = site;
 
-                if (!url || !title) {
-                    return;
-                }
+                // if (!url || !title) {
+                //     return;
+                // }
 
                 let github = githubUrl ? githubUrl.replace(/\.git$/, '').match(/(?:\:|github\.com\/)([\w\.\-]+)\/([\w\.\-]+)(\.git|$)/) : '';
 
-                !favicon && (favicon = url.match(/http(s)?:\/\/[^\/]*/)[0] + '/favicon.ico');
+                !favicon && (favicon = (url.match(/http(s)?:\/\/[^\/]*/) || [])[0] + '/favicon.ico');
 
                 if (site.length === 1) {
                     content.push(`

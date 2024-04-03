@@ -143,6 +143,15 @@
           [ "", "", "", "", "" ],
           [ "", "", "", "", "" ]
         ]
+      ],
+      [
+        "运行环境",
+        [
+          [ "https://github.com/tj/n", "n", "一键切换Node版本", "" ],
+          [ "https://github.com/nvm-sh/nvm", "NVM", "另一个切换Node版本", "https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg" ],
+          [ "", "", "", "", "" ],
+          [ "", "", "", "", "" ]
+        ]
       ]
     ]
   ],

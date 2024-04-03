@@ -3,22 +3,36 @@ const getDirName = require('path').dirname;
 
 const config = [
     {
+        name: 'sites',
         data: './data/sites.json',
         source: './template/sites.html',
         target: './dist/sites.html',
-        holder: 'PLH_URLS_CONTENT'
+        holder: 'PLH_URLS_CONTENT',
+        style: 'group-list'
     },
     {
+        name: 'libs',
         data: './data/libs.json',
         source: './template/libs.html',
         target: './dist/libs.html',
-        holder: 'PLH_LIBS_CONTENT'
+        holder: 'PLH_LIBS_CONTENT',
+        style: 'group-list'
     },
     {
+        name: 'snippets',
         data: './data/snippets.json',
         source: './template/snippets.html',
         target: './dist/snippets.html',
-        holder: 'PLH_SNIPPETS_CONTENT'
+        holder: 'PLH_SNIPPETS_CONTENT',
+        style: 'group-list'
+    },
+    {
+        name: 'chars',
+        data: './data/chars.json',
+        source: './template/chars.html',
+        target: './dist/chars.html',
+        holder: 'PLH_CHARS_CONTENT',
+        style: 'group-grid'
     }
 ];
 
@@ -113,6 +127,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     };
 });`;
 
+function splitString (string) {
+    return [...new Intl.Segmenter().segment(string)].map(x => x.segment);
+}
+
 /**
  * 生成文件
  * @param {object} config 
@@ -140,6 +158,11 @@ function genContent(config) {
                     <h3 class="group-title">${group[0]}</h3>
                     <ul class="sites">
             `)
+            group[1] && typeof group[1]==='string' && (group[1] = splitString(group[1]));
+
+            if (series) {
+                throw 1;
+            }
             group[1].forEach( site => {
                 let [url, title, desc, favicon, githubUrl] = site;
 
@@ -151,18 +174,24 @@ function genContent(config) {
 
                 !favicon && (favicon = url.match(/http(s)?:\/\/[^\/]*/)[0] + '/favicon.ico');
 
-                content.push(`
-                    <li class="site">
-                        <a class="site-url" href="${url}" target="_blank" title="${title}${desc ? ':'+desc : ''}" style="background-image:url(${favicon})">
-                            ${title}
-                            <span class="site-desc">${desc}</span>
-                        </a>
-                        ${github ?
-                            '<a class="github-url" href="https://github.com/'+ github[1] +'/'+ github[2] +'/" target="_blank" title="跳转到 github"><img src="https://img.shields.io/github/license/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /><img src="https://img.shields.io/github/stars/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /></a>'
-                            : ''
-                        }
-                    </li>
-                `);
+                if (site.length === 1) {
+                    content.push(`
+                        <li class="site">${url}</li>
+                    `);
+                } else {
+                    content.push(`
+                        <li class="site">
+                            <a class="site-url" href="${url}" target="_blank" title="${title}${desc ? ':'+desc : ''}" style="background-image:url(${favicon})">
+                                ${title}
+                                <span class="site-desc">${desc}</span>
+                            </a>
+                            ${github ?
+                                '<a class="github-url" href="https://github.com/'+ github[1] +'/'+ github[2] +'/" target="_blank" title="跳转到 github"><img src="https://img.shields.io/github/license/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /><img src="https://img.shields.io/github/stars/'+ github[1] +'/'+ github[2] +'?style=flat-square&label=" /></a>'
+                                : ''
+                            }
+                        </li>
+                    `);
+                }
             });
             content.push(`
                 </ul>

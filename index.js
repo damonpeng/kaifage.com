@@ -85,7 +85,7 @@ footer {text-align:center;padding:50px 0 30px}
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {
-    .navigation {width:360px;margin-left:100px}
+    .navigation {width:420px;margin-left:100px}
 }`;
 
 const scriptContent = `

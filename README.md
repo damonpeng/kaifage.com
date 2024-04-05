@@ -2,7 +2,7 @@
 
 记录开发哥常用的工具。
 
-访问网址：[https://kaifage.com](https://kaifage.com)
+访问网址：[https://kaifage.com/sites.html](https://kaifage.com/sites.html)
 
 ## 参与贡献
 

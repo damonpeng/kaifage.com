@@ -59,12 +59,14 @@ footer {text-align:center;padding:50px 0 30px}
 .series {margin-bottom:10px}
 .series-title {font-size:1.6rem;padding-bottom:3px;color:var(--series-color);border-bottom:1px solid var(--series-border-color)}
 .groups {display:flex;flex-wrap:wrap;align-content:flex-start;justify-content:flex-start;margin-top:5px}
-.group {display:flex;max-width:500px;min-width:300px;margin-bottom:8px;margin-right:30px}
+.group {display:flex;align-items:flex-start;max-width:500px;min-width:300px;margin:10px 30px 8px 0}
 .group img {height:16px;opacity:0.4;vertical-align:middle}
 .github-url:hover img {opacity:1}
 .group-title {width:20px;padding:5px;font-size:1,4rem;font-style:italic;font-weight:400;color:var(--group-color);word-wrap:break-word;letter-spacing:5px}
-.sites {flex:2}
-.site {padding:4px 0}
+.group-list {flex:2}
+.group-list .group-item {padding:4px 0}
+.group-grid {display:flex;flex-wrap:wrap}
+.group-grid .group-item {padding:0px 6px;font-size:32px}
 .site-url {padding:0 5px 0 22px;border-radius:3px;background-position:5px 50%;background-size:12px 12px;background-repeat:no-repeat}
 .site-url:hover {transform: scale(1.01869) translate(0px, -4px);transition-duration: 0.2s;box-shadow: rgb(66 66 66 / 62%) 0px 6px 12px 0px}
 .site-favicon {margin-right:2px}
@@ -137,6 +139,7 @@ function splitString (string) {
  */
 function genContent(config) {
     const data = require(config.data);
+    const isGridLayout = config.style==="group-grid";
 
     let content = [];
 
@@ -147,21 +150,26 @@ function genContent(config) {
                 <section class="groups">
         `);
         series[1].forEach( group => {
-            if (!group[0] || !group[1]) {
+            let [groupName, groupList] = group;
+            if (!groupName || !groupList) {
                 return;
             }
-            // console.log(group[0])
-            // console.table(group[1])
 
             content.push(`
                 <div class="group">
-                    <h3 class="group-title">${group[0]}</h3>
-                    <ul class="sites">
-            `)
-            group[1] && typeof group[1][0]==='string' && (group[1] = splitString(group[1][0]).map(i=>[i]));
+                    <h3 class="group-title">${groupName}</h3>
+                    <ul class="${config.style}">
+            `);
 
-            group[1].forEach( site => {
-                let [url, title, desc, favicon, githubUrl] = site;
+            if(isGridLayout && typeof groupList[0]==='string') {
+                groupList.forEach((item, index) => {
+                    groupList[index] = splitString(item).map(i => [i]);
+                });
+                groupList = groupList[0];
+            }
+
+            groupList.forEach(item => {
+                let [url, title, desc, favicon, githubUrl] = item;
 
                 // if (!url || !title) {
                 //     return;
@@ -171,13 +179,13 @@ function genContent(config) {
 
                 !favicon && (favicon = (url.match(/http(s)?:\/\/[^\/]*/) || [])[0] + '/favicon.ico');
 
-                if (site.length === 1) {
+                if (isGridLayout) {
                     content.push(`
-                        <li class="site">${url}</li>
+                        <li class="group-item">${url}</li>
                     `);
                 } else {
                     content.push(`
-                        <li class="site">
+                        <li class="group-item">
                             <a class="site-url" href="${url}" target="_blank" title="${title}${desc ? ':'+desc : ''}" style="background-image:url(${favicon})">
                                 ${title}
                                 <span class="site-desc">${desc}</span>

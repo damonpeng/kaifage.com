@@ -162,10 +162,11 @@ function genContent(config) {
             `);
 
             if(isGridLayout && typeof groupList[0]==='string') {
+                let mergeList = [];
                 groupList.forEach((item, index) => {
-                    groupList[index] = splitString(item).map(i => [i]);
+                    mergeList = mergeList.concat(splitString(item).map(i => [i]));
                 });
-                groupList = groupList[0];
+                groupList = mergeList;
             }
 
             groupList.forEach(item => {
